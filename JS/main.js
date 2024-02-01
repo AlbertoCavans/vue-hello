@@ -3,7 +3,9 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      message: "Hello Vue!",
+      title: "Hello world!",
+      successClass: "text-success",
+      photoHello: `./img/helloimg.jpg`,
     };
   },
 }).mount("#app");
